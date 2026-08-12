@@ -49,3 +49,21 @@
 #medium = prices[(prices >= 200) & (prices <= 500)]
 
 #print(expensive)
+
+
+#######RANDOM######
+
+
+import numpy as np
+
+# Generate 10 random stock prices
+prices = np.random.randint(100, 501, 10)
+
+# Find the highest and lowest generated prices
+highest = prices.max()
+lowest = prices.min()
+
+# Generate a 3x3 random matrix
+matrix = np.random.randint(1, 10, (3, 3))
+
+print(prices)
